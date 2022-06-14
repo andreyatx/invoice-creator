@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: dimgray;
+  color: white;
+}
+
+main {
+  margin: 60px auto;
+  max-width: 550px;
+  height: 720px;
+  background: #1f2937;
+}
+
+header {
+  background: #3a69d2;
+  padding-block: 60px 50px;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #d5d4d8;
+}
+
+#root {
+  padding: 40px;
+}
+
+#services {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.service-btn {
+  background: #d1d4f4;
+  border-radius: 7px;
+  padding: 14px 24px;
+  border: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #4a4e74;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+#order-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 350px;
+}
+
+.submit-div {
+  align-self: flex-end;
+}
+
+.submit-btn {
+  padding-block: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  background: #3a69d2;
+  width: 100%;
+
+  border: none;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+}
+
+#cart {
+  height: 50%;
+}
+
+#checkout {
+  padding-top: 10px;
+  display: grid;
+
+  grid-template-rows: 20px auto auto;
+
+  height: 50%;
+  border-top: 1px white solid;
+}
+
+.notes-and-total {
+  display: flex;
+  justify-content: space-between;
+}
+
+#note-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #f5f5f5;
+}
+
+#total-amount-value {
+  margin: 0;
+
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 32px;
+  align-self: center;
+
+  text-align: right;
+
+  color: #f5f5f5;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+
+  color: #f5f5f5;
+}
+
+.task-price {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 20px;
+  /* or 83% */
+
+  text-align: right;
+
+  color: #f5f5f5;
+
+  text-decoration: wavy;
+}
+
+.dollar-sign {
+  color: #918e9b;
+}
+
+p {
+  margin-block: 10px;
+}
